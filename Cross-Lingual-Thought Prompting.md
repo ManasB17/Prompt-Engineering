@@ -1,0 +1,11 @@
+
+**Publication link**: https://aclanthology.org/2023.findings-emnlp.826.pdf
+
+|  |  |
+| ---- | ---- |
+| **Introduction** | - Large Language Models (LLMs) can process any input and generate responses, but their performance is influenced by how users structure their requests, known as prompts. <br><br>- The design of these prompts is essential as LLMs are sensitive to their format, and through a process called instruction tuning, models can be trained to follow natural language instructions, reducing their sensitivity to prompt engineering. <br><br>- The authors propose a cross-lingual thought prompting template, or XLT template, which is a generic template that allows LLMs to respond to requests across multiple languages, supporting a wide range of multilingual tasks. |
+| **Highlights** | - The method XLT template aims to elicit multilingual capability through cross-lingual thoughts. This template comprises six logical instructions in sequence. To complete the template, only seven placeholders need to be filled in based on intrinsic knowledge of the task and the request<br><br>- The experiment was performed with GPT-3.5 models series(text-davinci-003 and GPT-3.5-turbo). To check the compatibility of the template LLaMA-2-chat model was also used as base model.<br><br>- The researchers are conducting evaluations on seven benchmarks that test the reasoning, understanding, and generation capabilities of Language Learning Models (LLMs). These benchmarks are applied across 27 languages, including both high-resource languages like English, German, Chinese, Japanese, Russian and low-resource languages such as Bengali, Urdu, Tamil, Galician<br><br>- The authors found that the design of prompts, including instruction logic and word choice, significantly impacts their effectiveness, and they advocate for further research to prioritize the development of generic prompting to expand the scope of LLMs across more languages and modalities |
+| **Template** | ![[Pasted image 20240129095014.png]] |
+|  |  |
+
+ 
